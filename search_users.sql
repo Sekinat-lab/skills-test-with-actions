@@ -1,4 +1,6 @@
 -- SQL queries to search for users
+-- NOTE: These are example queries with hardcoded values for demonstration.
+-- In production code, always use parameterized queries to prevent SQL injection.
 
 -- Search user by ID
 SELECT * FROM users WHERE id = 1;
